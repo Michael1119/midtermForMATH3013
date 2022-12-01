@@ -3,10 +3,10 @@
 * A first order ODE class including Lorenz system and Newton's cooling law
 
 ## Methods
-lorenz(string filename)  
+lorenz(string filename)
 * .derivative  
-cooling(string filename)  
+cooling(string filename)
 * .derivative  
-RungeKutta(int order)  
+RungeKutta(int order)
 * .solve(lorenz)  
 * .solve(cooling)   
