@@ -1,4 +1,4 @@
-# Midterm for MATH3013 - A first order ODE solver
+# DC011407_MATH3013_Midterm - A first order ODE solver
 
 ## Features
 * A Runge-Kutta class supporting up to 4th order Runge-Kutta method
