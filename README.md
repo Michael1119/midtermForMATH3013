@@ -1,4 +1,4 @@
-# DC011407_MATH3013_Midterm - A first order ODE solver
+# Midterm for MATH3013 - A first order ODE solver
 
 ## Features
 * A Runge-Kutta class supporting up to 4th order Runge-Kutta method
@@ -12,7 +12,7 @@ lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's 
 * .get_h : return step size
 * .get_n : return number of steps
 * .get_x : return initial condition
-* .get_filename : return output filename
+* .get_filename : return output filename (default is "lorenz" / "cooling")
 
 RungeKutta(int order) : create a RK method with a specific order of local truncation error (up to 4)
 * .solve(lorenz / cooling) : solve the first order ODE system and save the results to the output file
