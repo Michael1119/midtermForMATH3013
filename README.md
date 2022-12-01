@@ -4,9 +4,11 @@
 
 ## Methods
 lorenz(string filename)
-* .derivative  
+* .derivative
+
 cooling(string filename)
-* .derivative  
+* .derivative
+
 RungeKutta(int order)
-* .solve(lorenz)  
-* .solve(cooling)   
+* .solve(lorenz)
+* .solve(cooling) 
