@@ -3,7 +3,7 @@
 * A first order ODE class including Lorenz system and Newton's cooling law
 
 ## Methods
-lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system with an output filename
+lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system
 * .derivative : return the derivative of the system
 * .get_t0 : return start time
 * .get_tn : return end time
