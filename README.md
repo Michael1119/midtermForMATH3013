@@ -23,7 +23,7 @@ plot 'lorenz-rk4.dat' using 2:4 with line
 ```
 Newton's cooling law :
 ```
-set xlabel 'Time (s)'
+set xlabel 'Time (min)'
 set ylabel 'Temperature (K)'
 plot 'cooling-rk1.dat' with line,\
 'cooling-rk2.dat' with line,\
