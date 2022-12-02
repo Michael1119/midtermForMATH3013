@@ -4,7 +4,13 @@
 * A first order ODE class including Lorenz system and Newton's cooling law
 * A Runge-Kutta class supporting up to 4th order Runge-Kutta method
 
-## Methods
+## Usage
+Change the parameters in "ode_solver.cpp", then execute the following command in the terminal:
+
+This will generate an executable file. When executed, several .dat file will be generated.
+The solution of the ODE system can be plotted by gnuplot.
+
+## List of methods
 lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system
 * .derivative : return the derivative of the system
 * .get_t0 : return start time
