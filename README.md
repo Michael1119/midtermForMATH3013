@@ -30,6 +30,7 @@ plot 'cooling-rk1.dat' with line,\
 'cooling-rk3.dat' with line,\
 'cooling-rk4.dat' with line
 ```
+
 ## List of member functions
 lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system
 * .derivative(double time, valarray unknowns) : return the derivative of the system
