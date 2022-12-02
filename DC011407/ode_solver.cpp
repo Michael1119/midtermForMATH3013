@@ -19,16 +19,16 @@ void lorenz::setupInitialCondition(){
 
 void cooling::setupParameter(){
     k = 0.1; // heat transfer coefficient
-    Ts = 293.; // surrounding temperature (unit : K)
+    Ts = 273.; // surrounding temperature (unit : K)
 }
 
 void cooling::setupDomainAndPartition(){
     t0 = 0.; // start time
-    tn = 10.; // end time
-    h = 2; // step size
+    tn = 20.; // end time
+    h = 5; // step size
     n = tn / h; // number of steps
 }
 
 void cooling::setupInitialCondition(){
-    x = {313.}; // initial temperature (unit : K)
+    x = {373.}; // initial temperature (unit : K)
 }
