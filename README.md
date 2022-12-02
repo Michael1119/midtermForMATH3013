@@ -5,13 +5,15 @@
 * A Runge-Kutta class supporting up to 4th order Runge-Kutta method
 
 ## Usage
-Change the parameters in "ode_solver.cpp", then execute the following command in the terminal:
+Change the parameters in "ode_solver.cpp", then execute the following command in the terminal :
 
 ` g++ main.cpp ode_solver.cpp -o ode_solver `
 
-This will generate an executable file. When executed, several .dat file will be generated.
+This will generate an executable file "ode_solver.exe" which can be executed by the following command :
 
-The solution of the ODE system can be plotted by gnuplot.
+` \.ode_solver.exe `
+
+Numerical solution to the ODE systems are stored in the .dat files and can be visualized by gnuplot.
 
 Lorenz system :
 ```
