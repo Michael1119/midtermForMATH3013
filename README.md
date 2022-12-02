@@ -6,13 +6,13 @@
 
 ## Usage
 Change the parameters in "ode_solver.cpp", then execute the following command in the terminal:
-
+` g++ main.cpp ode_solver.cpp -o ode_solver `
 This will generate an executable file. When executed, several .dat file will be generated.
 The solution of the ODE system can be plotted by gnuplot.
 
 ## List of methods
 lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system
-* .derivative(double time, valarray<double> unknown) : return the derivative of the system
+* .derivative(double time, valarray unknowns) : return the derivative of the system
 * .get_t0() : return start time
 * .get_tn() : return end time
 * .get_h() : return step size
