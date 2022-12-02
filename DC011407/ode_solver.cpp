@@ -19,7 +19,7 @@ void lorenz::setupInitialCondition(){
 
 void cooling::setupParameter(){
     k = 0.03; // heat transfer coefficient
-    Ts = 20.; // surrounding temperature
+    Ts = 293.; // surrounding temperature (unit : K)
 }
 
 void cooling::setupDomainAndPartition(){
@@ -30,5 +30,5 @@ void cooling::setupDomainAndPartition(){
 }
 
 void cooling::setupInitialCondition(){
-    x = {40.}; // initial temperature
+    x = {313.}; // initial temperature
 }
