@@ -5,11 +5,11 @@
 * A Runge-Kutta class supporting up to 4th order Runge-Kutta method
 
 ## Usage
-Change the parameters in "ode_solver.cpp", then execute the following command in the terminal :
+Change the parameters in "ode_solver.cpp", then run the following command in the terminal :
 
 ` g++ main.cpp ode_solver.cpp -o ode_solver `
 
-This will generate an executable file "ode_solver.exe" which can be executed by the following command :
+This will generate an executable file "ode_solver.exe" which can be executed by :
 
 ` \.ode_solver.exe `
 
