@@ -6,7 +6,9 @@
 
 ## Usage
 Change the parameters in "ode_solver.cpp", then execute the following command in the terminal:
+
 ` g++ main.cpp ode_solver.cpp -o ode_solver `
+
 This will generate an executable file. When executed, several .dat file will be generated.
 The solution of the ODE system can be plotted by gnuplot.
 
