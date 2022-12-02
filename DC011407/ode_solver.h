@@ -19,10 +19,10 @@ public:
     virtual valarray<double> derivative(const double& t, const valarray<double>& x){return {};}
 protected:
     // domain and partitions
-    double t0; // start time
-    double tn; // end time
-    double h; // step size
-    int n; // number of steps
+    double t0;
+    double tn;
+    double h;
+    int n;
     // initial condition
     valarray<double> x;
     // file name for output
@@ -72,8 +72,8 @@ public:
     }
 private:
     // parameters
-    double k; // heat transfer coefficient
-    double Ts; // surrounding temperature
+    double k;
+    double Ts;
     // setup
     void setupParameter();
     void setupDomainAndPartition();
