@@ -24,8 +24,8 @@ void cooling::setupParameter(){
 
 void cooling::setupDomainAndPartition(){
     t0 = 0.; // start time
-    tn = 40.; // end time
-    h = 0.01; // step size
+    tn = 10.; // end time
+    h = 1; // step size
     n = tn / h; // number of steps
 }
 
