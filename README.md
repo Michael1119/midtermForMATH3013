@@ -12,13 +12,13 @@ The solution of the ODE system can be plotted by gnuplot.
 
 ## List of methods
 lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system
-* .derivative : return the derivative of the system
-* .get_t0 : return start time
-* .get_tn : return end time
-* .get_h : return step size
-* .get_n : return number of steps
-* .get_x : return initial condition
-* .get_filename : return output filename (default is "lorenz" / "cooling")
+* .derivative(double time, valarray<double> unknown) : return the derivative of the system
+* .get_t0() : return start time
+* .get_tn() : return end time
+* .get_h() : return step size
+* .get_n() : return number of steps
+* .get_x() : return initial condition
+* .get_filename() : return output filename (default is "lorenz" / "cooling")
 
 RungeKutta(int order) : create a RK method with a specific order of local truncation error (up to 4)
 * .solve(lorenz / cooling) : solve the first order ODE system and save the results to the output file
