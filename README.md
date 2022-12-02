@@ -13,6 +13,24 @@ This will generate an executable file. When executed, several .dat file will be 
 
 The solution of the ODE system can be plotted by gnuplot.
 
+Lorenz system :
+```
+set xlabel 'x1'
+set ylabel 'x3'
+plot 'lorenz-rk4.dat' using 2:4 with line
+```
+Newton's cooling law :
+```
+set xlabel 'Time (s)'
+set ylabel 'Temperature (K)'
+plot 'cooling-rk1.dat' with line,\
+'cooling-rk2.dat' with line,\
+'cooling-rk3.dat' with line,\
+'cooling-rk4.dat' with line
+```
+
+
+
 ## List of methods
 lorenz(string filename) / cooling(string filename) : create a Lorenz / Newton's cooling law system
 * .derivative(double time, valarray unknowns) : return the derivative of the system
