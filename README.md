@@ -1,4 +1,7 @@
 # Midterm for MATH3013 - A first order ODE solver
+Operation system: Win10
+
+Compiler: MinGW
 
 ## Features
 * A first order ODE class including Lorenz system and Newton's cooling law
